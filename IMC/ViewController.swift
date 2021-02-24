@@ -67,7 +67,7 @@ class ViewController: UIViewController {
             
         }
         
-        lbResult.text = result;
+        lbResult.text = "\(Int(imc)): \(result)";
         imgResult.image = UIImage(named: image);
         viResult.isHidden = false;
         view.endEditing(true)
